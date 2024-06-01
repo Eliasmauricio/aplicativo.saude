@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/interaçao.css">
+    <link rel="stylesheet" href="/aplicativo/tela geral do produto/teladeinteração/artigos/artigo.html">
+    <link rel="stylesheet" href="/aplicativo/tela geral do produto/teladeinteração/medico/medico.html">
+    <link rel="stylesheet" href="/aplicativo/tela geral do produto/teladeinteração/videos/videos.html">
+    <title>Tela de interação</title>
+</head>
+<body>
+    <div class="medico">
+        <h1>Inicie a conversa com o médico</h1>   
+        <article>
+            <a href="/aplicativo/tela geral do produto/teladeinteração/medico/medico.html">
+            <img src="/aplicativo/imagem/médico e paciente..svg" alt="medico e paciente">Clique aqui.</a>
+        </article>
+        
+    </div>
+    <div class="video">
+        <h2>Videos</h2>   
+        <article>
+            <a href="/aplicativo/tela geral do produto/teladeinteração/videos/videos.html">
+            <img src="/aplicativo/imagem/Video 1.svg" alt="video">Clique aqui.</a>
+        </article>
+    </div>
+    <div class="artigo">
+        <h2>Artigos</h2>   
+        <article>
+            <a href="/aplicativo/tela geral do produto/teladeinteração/artigos/artigo.html">
+            <img src="/aplicativo/imagem/Artigos.svg" alt="artigo">Clique aqui.</a>
+        </article>
+    </div>
+    <br>
+    <button id="logoutButton">Voltar</button>
+
+    <script>
+        document.getElementById('logoutButton').addEventListener('click', function() {
+            // Redireciona para a página de login (ou a página principal)
+            window.location.href ='/home.html';
+        });
+    </script>
+    
+</body>
+</html>

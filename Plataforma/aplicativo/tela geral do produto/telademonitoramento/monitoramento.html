@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/monitoramento.css">
+    <title>Tela de Monitoramento e acompanhamento de saúde</title>
+</head>
+<body>
+    <h1>Clique no icone para fazer o acompanhamento.</h1>
+    <div class="homen">
+        <h2>Homem</h2>
+        <a href="/aplicativo/tela geral do produto/telademonitoramento/homen/homem.html">
+        <img src="/aplicativo/imagem/Suporte homen.svg" >Clique aqui.</a>
+    </div>
+    
+    <div class="mulher">
+        <h2>Mulher</h2>
+        <a href="/aplicativo/tela geral do produto/telademonitoramento/mulher/mulher.html">
+        <img src="/aplicativo/imagem/Suporte mulher.svg" >Clique aqui.</a>
+
+    </div>
+    <br>
+    <button id="logoutButton">Voltar</button>
+
+    <script>
+        document.getElementById('logoutButton').addEventListener('click', function() {
+            // Redireciona para a página de login (ou a página principal)
+            window.location.href ='/home.html';
+        });
+    </script>
+    
+</body>
+</html>

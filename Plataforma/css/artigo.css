@@ -1,0 +1,23 @@
+body{
+    background-color: greenyellow;
+    max-width: 320px;
+    width: 100%;
+    padding: 10%;
+    max-height: 280px;
+    display:block;
+    margin: 0 auto;
+    margin: center; 
+}
+img{
+    width: 180px;
+    margin-left: 70px;
+}
+button{
+    position: absolute;
+    margin-top: 180px;
+    cursor: pointer;
+    background-color: rgb(183, 228, 247);
+}
+button:hover{
+    color: rgb(226, 48, 87);
+}

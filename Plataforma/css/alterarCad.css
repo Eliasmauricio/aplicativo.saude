@@ -1,0 +1,83 @@
+body{
+    background-color:rgb(250, 243, 190);
+    color:black;
+    font-family: "Poppins" ;
+    max-width: 320px;
+    width: 100%;
+    max-height: 250PX;
+    margin: 0 auto;
+    margin: center; 
+    padding: 1px;
+    justify-content: center;
+    align-items:center ;
+
+}
+h1{
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    margin-left: 60px;
+
+}
+label{
+    position: absolute;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    margin-top: 15px;
+    margin-left: 5px;
+
+}
+input, select {
+    text-decoration: none;
+    display: flex;
+    font-family: "Poppins";
+    font-size: 15px;
+    border: 0px;
+    align-items:center ;
+    background-color: rgb(227, 219, 209);
+    padding-left: 55px;
+    width: 255px;
+    height: 22px;
+    margin-top: 13px;
+}
+
+.senha{
+   margin-top: 40px;
+}
+.Senh{
+    margin-left: 110px;
+}
+.Senha{
+    margin-left: 80px;
+}
+button{
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 400;
+    height: 25px;
+    width: 125px;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-color: rgb(207, 189, 250);
+    justify-content: center;
+    align-items:center ; 
+    cursor: pointer;
+    border: 0px;
+
+}
+button:hover{
+    color: red;
+}
+div{
+    margin-top: 30px;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 300;
+    color: red;
+}
+.sucesso{
+    color: green;
+}

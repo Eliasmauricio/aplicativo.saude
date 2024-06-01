@@ -1,0 +1,66 @@
+body{
+    background-color:rgb(228, 253, 228);
+    color:black;
+    font-family: "Poppins" ;
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    margin: center; 
+    padding: 10px;
+    justify-content: center;
+    align-items:center ;
+    display:block;
+
+}
+
+h1{
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+    margin-left: 85px;
+    align-items:center;
+    justify-content: center;
+}
+h2{
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 300;
+    color: black;
+    margin-left: 22px;
+    align-items:center;
+    justify-content: center;
+}
+.ali{
+    margin-left:22px;
+}
+
+img{
+    width: 90px;
+    height: 80px;
+    margin-left: 90px;
+
+}
+.exercicio{
+    background-color: rgb(109, 235, 109);
+}
+.balanceada{
+    background-color: greenyellow;
+}
+.saudavel{
+    background-color: greenyellow;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+button{
+    cursor: pointer;
+    background-color: rgb(183, 228, 247);
+}
+button:hover{
+    color:rgb(226, 48, 87);;
+}

@@ -1,0 +1,128 @@
+body{
+    background-color:rgb(228, 253, 228);
+    color:black;
+    font-family: "Poppins" ;
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    margin: center; 
+    padding: 25px;
+    justify-content: center;
+    align-items:center ;
+    display:block;
+
+}
+h1.saude{
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    color: black;
+    margin-left: 10px;
+
+}
+h2{
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 300;
+   
+}
+
+input{
+    border: 0px;
+    background-color: rgb(227, 219, 209);
+    height: 18px;
+    width: 230px;
+    padding-left: 70px;
+}
+input.sen{
+    width: 166px;
+    padding-left: 70px;
+
+
+}
+
+img.coraçao{
+    height: 90px;
+    margin-left: 100px;
+}
+
+img.Chave{
+    margin-left: 5px;
+    height: 20px;
+    justify-content: center;
+    align-items:center ;
+    position: absolute;
+    margin-top: 2px;
+    
+}
+img.chave{
+    margin-left: 50px;
+    height: 20px;
+    position: absolute;
+    margin-top: 2px;
+}
+.Redefinir,.Cadatro{
+    padding-top: 5px;
+    display: inline-block;
+}
+
+.cadastro,.redefinir {
+    display: flex;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 300;
+    align-items:center ;
+    background-color: rgb(207, 189, 250);
+    height: 22px;
+    width: 302px;
+    border: 0px;
+    
+    
+
+}
+.redefinir a:hover{
+    color: blue;
+}
+
+.cadastro a:hover{
+    color: blue;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    align-items:center ;
+    justify-content: center;
+    
+    
+}
+.Enviar{
+    background-color: rgb(207, 189, 250);
+    border: 0px;
+    height: 18px;
+    width: 60px;
+    justify-content: center;
+    align-items:center;
+    cursor: pointer;
+}
+button:hover{
+ color: blue;
+}
+.erro{
+    color: white;
+    background-color: red;
+    display: none;
+}
+
+label{
+    position: absolute;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+div.Cadastro{
+    margin-top:3px;
+}

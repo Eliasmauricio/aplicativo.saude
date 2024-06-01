@@ -1,0 +1,50 @@
+body{
+    background-color:rgb(187, 68, 84);
+    max-width: 320px;
+    width: 100%;
+    max-height: 400px;
+    margin: 0 auto;
+    margin: center; 
+    padding: 15px;
+    justify-content: center;
+    align-items:center ;
+    display:block;
+
+}
+.interaçao, .apoio{ 
+    position: absolute;
+    margin-top: 50px;
+    width: 155px;
+    height: 260px;
+}
+.monitoramento,.planejamento{
+    position: absolute;
+    margin-top: 320px;
+    width: 155px;
+    height: 260px;
+
+}
+.planejamento,.apoio{
+    margin-left: 155px;
+
+}
+button{
+    position: absolute;
+    margin-top: 28px;
+    background-color: rgb(183, 228, 247);
+    cursor: pointer;
+    margin-left: 160px;
+}
+button:hover{
+    color:red;
+}
+.conta{
+    margin-left: 255px;
+}
+div{
+    position: absolute;
+    margin-top: 0px;
+    color: white;
+    margin-left: 5px;
+    font-size: 20px;
+}
