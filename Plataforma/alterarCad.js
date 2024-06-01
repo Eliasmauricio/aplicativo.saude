@@ -8,6 +8,13 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
+  // Exibir as informações do usuário logado no formulário
+  document.getElementById('nome').value = userLogado.nome;
+  document.getElementById('idade').value = userLogado.idade;
+  document.getElementById('genero').value = userLogado.genero;
+  document.getElementById('usuario').value = userLogado.user;
+  document.getElementById('tel').value = userLogado.tel;
+
   // Função para alterar as informações de cadastro e senha do usuário
   function alterarCadastro() {
     let nome = document.getElementById('nome').value;
@@ -27,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    if (genero ==="" ) {
+    if (genero === "" ) {
       msgError.innerText = 'Selecione uma opção de Gênero.';
       msgError.style.display = 'block';
       return;
